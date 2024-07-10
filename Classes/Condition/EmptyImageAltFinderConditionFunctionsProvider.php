@@ -32,13 +32,14 @@ class EmptyImageAltFinderConditionFunctionsProvider implements ExpressionFunctio
      */
     protected function isEmptyImageAltFinderFeDebug(): ExpressionFunction
     {
-        return new ExpressionFunction(
-            'isEmptyImageAltFinderFeDebug',
-            static fn() => null, // Not implemented, we only use the evaluator
-            static function () {
-                return true;
+        return new ExpressionFunction('isEmptyImageAltFinderFeDebug', function () {
+            // Not implemented, we only use the evaluator
+        }, function () {
+            $loggedInBeUser = $GLOBALS['BE_USER'] ?? false;
+            if($loggedInBeUser) {
+                return $GLOBALS['BE_USER']->uc['emptyImageAltFinderFeDebug'] ?? false;
             }
-        );
+            return false;
+        });
     }
-
 }

@@ -1,5 +1,5 @@
 # Visually mark images with non existent or empty alt attributes
-[backend.user.isLoggedIn]
+[backend.user.isLoggedIn && isEmptyImageAltFinderFeDebug() == 1]
     page.cssInline {
         934573 = TEXT
         934573.value (
