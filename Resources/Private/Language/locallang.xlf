@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xliff version="1.2">
+	<file source-language="en" datatype="plaintext" original="messages" date="2024-07-01T11:47:10Z" product-name="empty_image_alt_finder">
+		<header/>
+		<body>
+			<trans-unit id="tx_empty_image_alt_finder_fe_debug" xml:space="preserve">
+				<source>Debug Image Alternative Text in Frontend</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

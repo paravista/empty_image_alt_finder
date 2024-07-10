@@ -1,0 +1,13 @@
+# Visually mark images with non existent or empty alt attributes
+[backend.user.isLoggedIn]
+    page.cssInline {
+        934573 = TEXT
+        934573.value (
+            img:not([alt]),
+            img[alt=""] {
+                outline: 5px solid red;
+                outline-offset: -5px;
+            }
+        )
+    }
+[END]

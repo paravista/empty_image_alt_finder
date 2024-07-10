@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Paravista\EmptyImageAltFinder\:
+    resource: '../Classes/*'
+
+  Paravista\EmptyImageAltFinder\Condition\EmptyImageAltFinderTypoScriptConditionProvider:
+    tags:
+      - name: 'paravista.emptyImageAltFinder.isEmptyImageAltFinderFeDebug'
+        identifier: 'isEmptyImageAltFinderFeDebug'
