@@ -2,7 +2,8 @@
     "name": "paravista/empty-image-alt-finder",
     "type": "typo3-cms-extension",
     "description": "Helps editors to find empty or missing image alt attributes.",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Michael Hitzler",
