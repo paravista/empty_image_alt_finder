@@ -16,3 +16,5 @@ This can be done by activating the option "Debug Image Alternative Text in Front
 
 Once activated all images of the website will have a red outline where alt attribute is missing or empty.
 Editors have to be logged into the TYPO3 backend when browsing the website in order to get the image visibility hints.
+
+Thanks to Manuel Schnabel from www.passionweb.de for support with user settings!
